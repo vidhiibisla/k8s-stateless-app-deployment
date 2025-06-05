@@ -4,20 +4,16 @@ kubectl version –client
 
 
 Cloning the Github Repo - 
-git clone https://github.com/Arpit-commits/Arpit-CLO835-Assignment2.git
+git https://github.com/vidhiibisla/k8s-stateless-app-deployment
 
-cd Arpit-CLO835-Assignment2
-
-Branch - 
-git checkout version1
 
 AWS Secrets 
 aws configure
 nano ~/.aws/credentials
 
-aws_access_key_id = ASIAR7I7HI6XYLDBDNKJ
-aws_secret_access_key = NB4PcIU/C98NGbVmp7vZjbQtDa0LcBCiLmPrg2gC
-aws_session_token = IQoJb3JpZ2luX2VjEEcaCXVzLXdlc3QtMiJGMEQCICV5Zl4FpyuR6qjsG5gdTNAc076QV1ohQC5NT5ffylaHAiA/HOb0RO/1AptirlkVHA821bxyhHr8OSOX60EYfHeiaSq4AgiQ//////////8BEAIaDDEzNTg5MzgyOTU1MSIMATVvrLsv1opKLqCwKowCsyfiH2lVc5HekxgwVhv>
+aws_access_key_id = 
+aws_secret_access_key = 
+aws_session_token = 
 region = us-east-1
 
 To confirm the aws secrets
