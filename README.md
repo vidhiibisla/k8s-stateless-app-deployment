@@ -14,9 +14,9 @@ SSH key pair for EC2 access.
 7.	Update the applications and deploy the new version of the application
 ## Infrastructure Setup
 1. Clone repository:
-   git clone https://github.com/Arpit-commits/Arpit-CLO835-Assignment2.git
-   cd Arpit-CLO835-Assignment2
-2. Navigate to Terraform directory:
+   git clone https://github.com/vidhiibisla/k8s-stateless-app-deployment
+2. Navigate to environment/kindcode
+/terraform_code directory:
    cd terraform
 3. Generate SSH key pair:
    ssh-keygen -t rsa -f vidhi-dev -q -N ""
