@@ -12,12 +12,12 @@ SSH key pair for EC2 access.
 5.	Expose web application using Service of type Nodeport
 6.	Expose MySQL using Service of type ClusterIP
 7.	Update the applications and deploy the new version of the application
-17. #Infrastructure 
+# Infrastructure 
 18. clone the repository:
-git clone https://github.com/your-username/k8s-stateless-app-deployment.git
-Navigate to Terraform directory: cd terraform
-Generate SSH key pair: ssh-keygen -t rsa -f ass1-prod -q -N ""
-Update variables.tf with key name and configure S3 backend in config.tf.
-Apply Terraform: terraform init terraform validate terraform plan terraform apply -auto-approve
-SSH into EC2 instance: chmod 400 ass1-prod ssh -i ass1-prod ec2-user@
-Run GitHub Workflow to build and push Docker images to ECR.
+19. git clone https://github.com/your-username/k8s-stateless-app-deployment.git
+20. Navigate to Terraform directory: cd terraform
+21. Generate SSH key pair: ssh-keygen -t rsa -f ass1-prod -q -N ""
+22. Update variables.tf with key name and configure S3 backend in config.tf.
+23. Apply Terraform: terraform init terraform validate terraform plan terraform apply -auto-approve
+24. SSH into EC2 instance: chmod 400 ass1-prod ssh -i ass1-prod ec2-user@
+25. Run GitHub Workflow to build and push Docker images to ECR.
