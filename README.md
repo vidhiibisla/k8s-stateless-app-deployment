@@ -111,4 +111,4 @@ SSH key pair for EC2 access.
 ## Conclusion
 This project provided practical experience with Kubernetes, covering cluster setup, application deployment, and rolling updates. Troubleshooting enhanced my understanding of container orchestration.
 ## links
-video:
+video:https://youtu.be/cjtouzF6Yzc
